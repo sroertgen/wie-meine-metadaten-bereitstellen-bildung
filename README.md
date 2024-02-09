@@ -1,10 +1,11 @@
 # Wie meine Metadaten bereit stellen?
 
 Dieses Dokument basiert auf dem im Rahmen des BMBF geförderten Projektes [JOINTLY](http://jointly.info) entstandenen Dokument [Wie meine Metadaten bereit stellen?](https://kurzelinks.de/wie-metadaten-bereitstellen).
-Es ist als praktischer Leitfaden für Entwickler:innen und andere Interessierte gedacht, die Metadaten für Lernressourcen auf ihren Webseiten hinterlegen wollen. 
+Es wurde an vielen Stellen überarbeitet, insbesondere wurden Hinweise zum [Allgemeinen Metadatenprofil für Bildungsressourcen](https://dini-ag-kim.github.io/amb/latest/) aufgenommen.
+Es ist als praktischer Leitfaden für Entwickler:innen und andere Interessierte gedacht, die Metadaten für Lernressourcen oder verwandte Objekte bereitstellen wollen. 
 Das Verfahren kann grundsätzlich auch auf andere Arten von Objekten angewendet werden.
 
-TL;DR
+## TL;DR
 
 Der Leitfaden empfiehlt die Erstellung einer Sitemap, um Crawler zu den relevanten Objekten zu führen.
 Die Daten sollen maschinenlesbar in das HTML einer Webseite eingebettet werden.
@@ -186,8 +187,21 @@ Zur Hilfestellung gibt es eine deutschsprachige [Einführung in SKOS](https://w3
 
 Zur einfachen Pflege und Publikation von SKOS-Vokabularen eignet sich [SkoHub Vocabs](https://github.com/skohub-io/skohub-vocabs), das selbst lokal aufgesetzt oder als Service unter https://skohub.io/ genutzt werden kann.
 
-## Links
 
+## Darstellung anderer Objekttypen als Lernressourcen
+
+Die oben beschriebenen Verfahren lassen sich auch die Darstellung verschiedenster anderer Objekte übertragen.
+Entsprechend eingebettete Daten finden sich auf vielen Webseiten, ob es um Rezepte, Kurse oder Autos geht:
+
+- chefkoch.de
+- udemy.com
+- mobile.de
+- ...
+
+Bei schema.org liegen bereits eine Vielzahl von Typen und Attributen vor, die entsprechend genutzt werden können.
+Wenn kein nutzbarer Typ oder keine nachnutzbaren Attribute gefunden wurden, können auch eigene entwickelt werden.
+
+## Links
 
 - [Vokabulare der OER-Metadatengruppe](https://wiki.dnb.de/display/DINIAGKIM/Wissenssammlung) (siehe unter Vokabulare)
 - [OpenEduHub-Vokabular](http://w3id.org/openeduhub/vocabs/)
@@ -195,7 +209,6 @@ Zur einfachen Pflege und Publikation von SKOS-Vokabularen eignet sich [SkoHub Vo
 - [OER-Metadatengruppe](https://wiki.dnb.de/display/DINIAGKIM/OER-Metadatengruppe)
 - [k12ocx](https://k12ocx.github.io/k12ocx-specs/): Projekt von Phil Barker über die Darstellung und Modellierung von Curricula und zugehörigen Contents
 - [Herausforderungen für OER-Metadaten](https://kurzelinks.de/metadaten-fuer-oer) (Zusammenstellung von Jointly)
-- [Wie stelle ich OER-Material auffindbar bereit](https://kurzelinks.de/oer-verbreiten) (in progress)
 
 
 
